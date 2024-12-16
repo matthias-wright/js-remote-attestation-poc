@@ -1,0 +1,18 @@
+{
+    "name": "custom-cert",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@fidm/x509": "^1.2.1",
+        "@fleek-platform/sgx-quote-verify": "^0.1.0",
+        "@peculiar/x509": "^1.12.3",
+        "@staging-org/sgx-quote-verify-wasm": "file:../../Documents/workspace/fleek-network/testing/sgx-quote-verify-wasm/pkg",
+        "dateformat": "^5.0.3"
+    }
+}
